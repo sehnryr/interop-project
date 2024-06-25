@@ -15,3 +15,12 @@ To run the JavaFX client:
 cd client
 mvn clean javafx:run
 ```
+
+To call Mule flow endpoints that saves Spring API's responses to files:
+- `GET` request: `curl http://localhost:8081/get`
+- `POST` request: `curl http://localhost:8081/post`
+- `PUT` request: `curl http://localhost:8081/put`
+- `DELETE` request: `curl http://localhost:8081/delete`
+
+The Mule flow will save each response content to a file named `output-<method>.txt`
+for each method inside the Mule project root.
