@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
  */
 public class App extends Application {
 
-    private static final String BASE_URL = "http://localhost:8080/api";
+    private static final String BASE_URL = "http://localhost:8082/api";
 
     @Override
     public void start(Stage primaryStage) {
