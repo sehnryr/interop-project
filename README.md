@@ -24,3 +24,5 @@ To call Mule flow endpoints that saves Spring API's responses to files:
 
 The Mule flow will save each response content to a file named `output-<method>.txt`
 for each method inside the Mule project root.
+
+Mule Flow, ActiveMQ log debug and jBPM workflow will be shown during the presentation
